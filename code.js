@@ -40,5 +40,5 @@ function showChange(event){
         sum += parseInt(item);
     }
     
-    event.target.parentNode.children[2].innerText = isNaN(sum) ? "score:-": "score:"+sum;    
+    event.target.parentNode.children[2].innerText = isNaN(sum) ? "score: -": "score: "+sum;    
 }
