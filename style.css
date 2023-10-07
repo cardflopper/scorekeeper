@@ -2,12 +2,23 @@ html{text-align:center;}
 button{font-size:1.75em}
 
 input[type="text"]{
-font-size:3em;
+font-size:2em;
 width:95%;
 }
-.score{
+
+input[placeholder="name"]{
+background-color:wheat;  
   
-  font-size:3em;
+}
+  
+
+.scoreEntry{
+  border-top:3px solid gray;
+  padding:10px;
+}
+
+.score{
+  font-size:2.5em;
   
 }
 
